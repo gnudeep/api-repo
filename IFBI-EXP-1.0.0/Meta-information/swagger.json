@@ -1,0 +1,32 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "IFBI-EXP-1.0.0"
+  },
+  "paths": {
+    "/stat": {
+      "get": {
+        "parameters": [],
+        "responses": {
+          "200": {}
+        },
+        "security": [
+          {
+            "stat-test-002_oauth": []
+          }
+        ],
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    }
+  },
+  "securityDefinitions": {
+    "stat-test-002_oauth": {
+      "type": "oauth2",
+      "authorizationUrl": "https://172.17.42.1:8243/token",
+      "flow": "urn:ietf:params:oauth:grant-type:saml2-bearer,iwa:ntlm,implicit,refresh_token,client_credentials,authorization_code,password",
+      "scopes": {}
+    }
+  }
+}
