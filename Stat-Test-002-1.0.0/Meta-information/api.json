@@ -5,11 +5,12 @@
     "version": "1.0.0"
   },
   "uuid": "ff1f8a8f-6a34-4882-a631-48d9618e0e60",
+  "description": "Test Google",
   "context": "/google/1.0.0",
   "contextTemplate": "/google/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "May 31, 2016 2:02:16 PM",
+  "lastUpdated": "Jun 1, 2016 5:56:50 PM",
   "availableTiers": [
     {
       "name": "Unlimited",

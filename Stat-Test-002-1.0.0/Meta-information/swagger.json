@@ -1,6 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
+    "description": "Test Google",
     "version": "1.0.0",
     "title": "Stat-Test-002"
   },
