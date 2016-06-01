@@ -2,7 +2,7 @@
   "id": {
     "providerName": "admin",
     "apiName": "Test-Stat-001",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "uuid": "94c46da8-7397-4b7d-b15b-f5f028b710bd",
   "context": "/stat/1.0.0",
