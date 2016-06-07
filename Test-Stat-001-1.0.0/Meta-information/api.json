@@ -5,11 +5,12 @@
     "version": "1.0.0"
   },
   "uuid": "94c46da8-7397-4b7d-b15b-f5f028b710bd",
+  "description": "Test Stat API",
   "context": "/stat/1.0.0",
   "contextTemplate": "/stat/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "May 31, 2016 1:08:35 PM",
+  "lastUpdated": "Jun 7, 2016 4:51:35 PM",
   "availableTiers": [
     {
       "name": "Unlimited",
